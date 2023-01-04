@@ -1,0 +1,193 @@
+*{
+    margin: 0; padding: 0;
+}
+@media(min-width:1200px){
+    #wrapper{
+        border: 5px solid black;
+        background-color: aqua;
+    }
+    #head{
+        height: 100px;
+        background-color: lime;
+    }
+    #slider{
+        height: 300px;
+        background-color: silver;
+    }
+    #contant{
+        height: 500px;
+        background-color: whitesmoke;
+    }
+    #our_services{
+        height: 300px;
+        background-color: bisque;
+    }
+    #our_client{
+        height: 200px;
+    }
+    #our_mission{
+        height:300px;
+        background-color: silver;
+    }
+    #our_vision{
+        height: 200px;
+        background-color: whitesmoke;
+    }
+    #why_greensoft{
+        height: 300px;
+        background-color: blueviolet;
+    }
+    #links{
+        height: 250px;
+    }
+    .link_box{
+        height: calc(100% - 10px);
+        width: calc(33.33% - 10px);
+        background-color: black;
+        float: left;
+        margin: 5px;
+    }
+}
+@media(max-width:1199px) and (min-width:720px){
+    #wrapper{
+        border: 5px solid black;
+        background-color: aqua;
+    }
+    #head{
+        height: 100px;
+        background-color: lime;
+    }
+    #slider{
+        height: 300px;
+        background-color: silver;
+    }
+    #contant{
+        height: 500px;
+        background-color: whitesmoke;
+    }
+    #our_services{
+        height: 300px;
+        background-color: bisque;
+    }
+    #our_client{
+        height: 200px;
+    }
+    #our_mission{
+        height:300px;
+        background-color: silver;
+    }
+    #our_vision{
+        height: 200px;
+        background-color: whitesmoke;
+    }
+    #why_greensoft{
+        height: 300px;
+        background-color: blueviolet;
+    }
+    #links{
+        height: 250px;
+    }
+    .link_box{
+        height: calc(100% - 10px);
+        width: calc(33.33% - 10px);
+        background-color: black;
+        float: left;
+        margin: 5px;
+    
+    }
+}
+@media(max-width:719px) and (min-width:420px){
+    #wrapper{
+        border: 5px solid black;
+        background-color: aqua;
+    }
+    #head{
+        height: 100px;
+        background-color: lime;
+    }
+    #slider{
+        height: 300px;
+        background-color: silver;
+    }
+    #contant{
+        height: 500px;
+        background-color: whitesmoke;
+    }
+    #our_services{
+        height: 300px;
+        background-color: bisque;
+    }
+    #our_client{
+        height: 200px;
+    }
+    #our_mission{
+        height:300px;
+        background-color: silver;
+    }
+    #our_vision{
+        height: 200px;
+        background-color: whitesmoke;
+    }
+    #why_greensoft{
+        height: 300px;
+        background-color: blueviolet;
+    }
+    #links{
+        height: 250px;
+    }
+    .link_box{
+        height: calc(100% - 10px);
+        width: calc(33.33% - 10px);
+        background-color: black;
+        float: left;
+        margin: 5px;
+    
+    }
+}
+@media(max-width:419){
+    #wrapper{
+        border: 5px solid black;
+        background-color: aqua;
+    }
+    #head{
+        height: 100px;
+        background-color: lime;
+    }
+    #slider{
+        height: 300px;
+        background-color: silver;
+    }
+    #contant{
+        height: 500px;
+        background-color: whitesmoke;
+    }
+    #our_services{
+        height: 300px;
+        background-color: bisque;
+    }
+    #our_client{
+        height: 200px;
+    }
+    #our_mission{
+        height:300px;
+        background-color: silver;
+    }
+    #our_vision{
+        height: 200px;
+        background-color: whitesmoke;
+    }
+    #why_greensoft{
+        height: 300px;
+        background-color: blueviolet;
+    }
+    #links{
+        height: 250px;
+    }
+    .link_box{
+        height: calc(100% - 10px);
+        width: calc(33.33% - 10px);
+        background-color: black;
+        float: left;
+        margin: 5px;
+    }
+}
