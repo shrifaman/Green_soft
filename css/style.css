@@ -5,3 +5,9 @@
     text-align: center;
     color: white;
 }
+.contant_text{
+    font-size: 20px;
+    line-height: 30px;
+    word-wrap: 1px;
+    text-align: justify;
+}
