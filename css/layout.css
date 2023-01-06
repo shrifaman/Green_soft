@@ -1,7 +1,8 @@
 *{
     margin: 0px;
-    padding: 0;
+    padding: 0px;
 }
+/* Default css start */
 #head{
     height: 100px;
     background-color: rgb(0, 255, 0);
@@ -9,45 +10,63 @@
 }
 #slider{
     height: 400px;
+    width: calc(100% - 10px);
+    margin-left: 5px;
+    margin-right: 5px;
     margin-bottom: 5px;
-    background-color: rgb(146, 34, 34);
+    background-color: rgb(225, 217, 217);
 }
 #contant{
-    height: 300px;
+    height: auto;
     width: calc(100% - 10px);
-    background-color: whitesmoke;
     margin-bottom: 5px;
     margin-left: 5px;
     margin-right: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(225, 217, 217);
 }
 #our_services{
     height: 300px;
     margin-bottom: 5px;
-    background-color: bisque;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(225, 217, 217);
 }
 #our_client{
-    height: 250px;
+    height: auto;
     margin-bottom: 5px;
-    background-color: aquamarine;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(225, 217, 217);  
 }
 #our_mission{
-    height:280px;
+    height:auto;
     margin-bottom: 5px;
-    background-color:goldenrod;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(225, 217, 217);
 }
 #our_vision{
-    height: 200px;
+    height: auto;
     margin-bottom: 5px;
-    background-color: whitesmoke;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(225, 217, 217);
 }
 #why_greensoft{
-    height: 300px;
+    height: auto;
     margin-bottom: 5px;
-    background-color: blueviolet;
-
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(225, 217, 217);
 }
 #links{
-    height: 300px;
+    height: 400px;
     width: 100%;
 }
 .link_box{
@@ -61,83 +80,70 @@
 .link_box:first-child{
     margin-left: 0px;
 }
-@media(max-width:1200px) and (min-width:990px){
-    #contant{
-        height: 150px;
+/* Default css start */
+@media(max-width:1200px) and (min-width:990px){ 
+    #slider{
+        height: 395px;
     }
-    #our_services{
-        height: 150px;
-    }
-    #our_client{
-        height: 120px;
-    }
-    #our_mission{
-        height: 220px;
-    }
-    #why_greensoft{
-        height: 200px;
-
-    }
-    #links{
-        height: 180px;
+    .para_text{
+        font-size: 25px;
+        line-height: 35px;
     }
 }
 @media(max-width:989px) and (min-width:720px){
-    #contant{
-        height: 400px;
+    #slider{
+        height: 350px;
     }
-    #our_services{
-        height: 170px;
-    }
-    #our_client{
-        height: 170px;
-    }
-    #our_mission{
-        height: 250px;
-    }
-    #why_greensoft{
-        height: 250px;
-
-    }
-    #links{
-        height: 120px;
+    .para_text{
+        font-size: 22px;
+        line-height: 33px;
     }
 }
 @media(max-width:719px) and (min-width:420px){
     #slider{
-        height: 300px;
-    }
-    #contant{
-        height: 300px;
-    }
-    #our_services{
-        height: 200px;
-    }
-    #our_client{
-        height: 200px;
-    }
-    #our_mission{
-        height: 280px;
-    }
-    #why_greensoft{
-        height: 300px;
-
+        height: 330px;
     }
     #links{
-        height: 450px;
+        height: 1200px;
     }
     .link_box:nth-child(1){
-        height: 150px;
+        height: 400px;
         width: 100%;
-        margin-bottom: 5px;
+        margin-bottom: 1px;
     }
     .link_box:nth-child(2){
-        height: 150px;
+        height: 400px;
         width: 100%;
-        margin-bottom: 5px;
+        margin: 0px;
+        margin-bottom: 1px;
     }
     .link_box:nth-child(3){
-        height: 150px;
+        height: 400px;
         width: 100%;
+        margin: 0px;
+    }
+}
+@media(max-width:419px){
+    #slider{
+        height: 300px;
+    }
+    #links{
+        height: 1200px;
+    }
+    .link_box:nth-child(1){
+        height: 400px;
+        width: 100%;
+        margin-bottom: 1px;
+    }
+    .link_box:nth-child(2){
+        height: 400px;
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 1px;
+    }
+    .link_box:nth-child(3){
+        height: 400px;
+        width: 100%;
+        margin: 0px;
     }
 }

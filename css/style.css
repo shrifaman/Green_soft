@@ -1,13 +1,34 @@
-.style{
+.heading_text{
     text-align: center;
+    padding: 5px;
 }
-.link_box{
-    text-align: center;
-    color: white;
+#button{
+    background-color: red;
 }
-.contant_text{
+.para_text{
     font-size: 20px;
     line-height: 30px;
-    word-wrap: 1px;
+    padding: 20px;
+    box-sizing: border-box;
     text-align: justify;
+}
+.link_head_text{
+    color: white;
+    padding: 10px;
+    font-family: Algerian;
+}
+#link_head_text{
+    color: white;
+    padding: 10px;
+    font-family: Algerian;
+    float: left;
+}
+.link_box_text{
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+}
+.client{
+    width:calc(32.33% - 20px);
+    margin-left: 20px; 
 }
