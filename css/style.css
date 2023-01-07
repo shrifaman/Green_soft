@@ -1,6 +1,18 @@
+.div_box{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
 .heading_text{
     text-align: center;
     padding: 5px;
+}
+#why_head_text{
+    text-align: left;
+    padding: 10px;
+}
+#why_para_text{
+    padding-top: 0px;
 }
 #button{
     background-color: red;
@@ -11,6 +23,13 @@
     padding: 20px;
     box-sizing: border-box;
     text-align: justify;
+}
+.why_text{
+    padding-top: 0px;
+}
+.why_head_text{
+    text-align: left;
+    padding-left: 20px;
 }
 .link_head_text{
     color: white;
@@ -28,7 +47,13 @@
     font-size: 25px;
     padding: 5px;
 }
-.client{
+.services_img{
+    height: 83%;
+    width: calc(25% - 10px);
+    margin-left: 5px;
+}
+.client_img{
+    /* Height=auto */
     width:calc(32.33% - 20px);
     margin-left: 20px; 
 }

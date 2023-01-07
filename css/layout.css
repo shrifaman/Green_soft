@@ -3,70 +3,52 @@
     padding: 0px;
 }
 /* Default css start */
+#wrapper{
+    background-color: rgb(228, 216, 216);
+}
 #head{
     height: 100px;
-    background-color: rgb(0, 255, 0);
+    width: 100%;
     margin-bottom: 5px;
+    background-color: rgb(11, 27, 49);
 }
 #slider{
     height: 400px;
-    width: calc(100% - 10px);
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    background-color: rgb(225, 217, 217);
+    background-color: whitesmoke;
 }
 #contant{
     height: auto;
-    width: calc(100% - 10px);
-    margin-bottom: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    padding-bottom: 5px;
-    background-color: rgb(225, 217, 217);
+    background-color: whitesmoke;
 }
 #our_services{
     height: 300px;
-    margin-bottom: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    background-color: rgb(225, 217, 217);
+    background-color: whitesmoke;
 }
 #our_client{
     height: auto;
-    margin-bottom: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    background-color: rgb(225, 217, 217);  
+    background-color: whitesmoke;  
 }
 #our_mission{
     height:auto;
-    margin-bottom: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    background-color: rgb(225, 217, 217);
+    background-color: whitesmoke;
 }
 #our_vision{
     height: auto;
-    margin-bottom: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    background-color: rgb(225, 217, 217);
+    background-color: whitesmoke;
 }
 #why_greensoft{
-    height: auto;
-    margin-bottom: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    background-color: rgb(225, 217, 217);
+    height: 350px;
+    background-color: whitesmoke;
+}
+.why_box{
+    height: calc(100% - 10px);
+    width:calc(50% - 10px);
+    margin: 5px;
+    float: left;
+    background-color: whitesmoke;
 }
 #links{
-    height: 400px;
+    height: 350px;
     width: 100%;
 }
 .link_box{
@@ -80,7 +62,7 @@
 .link_box:first-child{
     margin-left: 0px;
 }
-/* Default css start */
+/* Default css end */
 @media(max-width:1200px) and (min-width:990px){ 
     #slider{
         height: 395px;
@@ -94,6 +76,17 @@
     #slider{
         height: 350px;
     }
+    #why_greensoft{
+        height: auto;
+    }
+    .why_box:first-child{
+        height: 270px;
+        width: 100%;
+    }
+    .why_box:last-child{
+        width:100%;
+        height: auto;
+    }
     .para_text{
         font-size: 22px;
         line-height: 33px;
@@ -102,6 +95,17 @@
 @media(max-width:719px) and (min-width:420px){
     #slider{
         height: 330px;
+    }
+    #why_greensoft{
+        height: auto;
+    }
+    .why_box:first-child{
+        height: 270px;
+        width: 100%;
+    }
+    .why_box:last-child{
+        width:100%;
+        height: auto;
     }
     #links{
         height: 1200px;
@@ -127,6 +131,17 @@
     #slider{
         height: 300px;
     }
+    #why_greensoft{
+        height: auto;
+    }
+    .why_box:first-child{
+        height: 200px;
+        width: calc(100% - 10px);
+    }
+    .why_box:last-child{
+        width: calc(100% - 10px);
+        height: auto;
+    }
     #links{
         height: 1200px;
     }
@@ -135,7 +150,7 @@
         width: 100%;
         margin-bottom: 1px;
     }
-    .link_box:nth-child(2){
+    .link_box:nth-child(2){ 
         height: 400px;
         width: 100%;
         margin: 0px;
